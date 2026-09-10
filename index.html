@@ -1,59 +1,180 @@
-<section id="projects">
+<!DOCTYPE html>
+<html lang="en">
 
-    <h2>My Projects</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <div class="project-list">
+<body>
 
-        <div class="project">
-            <h3>Calculator</h3>
+    <header>
+        <nav>
+            <h2 class="logo">My Portfolio</h2>
 
-            <p>
-                I created a calculator that can perform basic
-                mathematical operations.
-            </p>
+            <ul id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-            <p><b>Used:</b> HTML, CSS, JavaScript</p>
-
-            <a href="https://nilanjan03.github.io/Calculator-project/"
-               target="_blank">
-                View Project
-            </a>
-        </div>
-
-
-        <div class="project">
-            <h3>To-Do List</h3>
-
-            <p>
-                A simple to-do list where users can add and remove
-                their daily tasks.
-            </p>
-
-            <p><b>Used:</b> HTML, CSS, JavaScript</p>
-
-            <a href="https://nilanjan03.github.io/Todo-list-Project/"
-               target="_blank">
-                View Project
-            </a>
-        </div>
+            <button id="menuBtn">☰</button>
+        </nav>
+    </header>
 
 
-        <div class="project">
-            <h3>Personal Portfolio</h3>
+    <section id="home" class="home">
+
+        <div class="intro">
+            <p>Hello, I'm</p>
+
+            <h1>Nilanjan Das</h1>
+
+            <h3>Student & Web Developer</h3>
 
             <p>
-                This portfolio website was created to display my
-                skills, projects and contact details.
+            I am a student of Computer Science and Engineering of UPES, who is interested in programming and web
+                development. I like learning new technologies and building
+                small projects using them.
             </p>
 
-            <p><b>Used:</b> HTML, CSS, JavaScript</p>
-
-            <a href="https://nilanjan03.github.io/Frontend/"
-               target="_blank">
-                View Project
-            </a>
+            <a href="#projects" class="btn">My Projects</a>
         </div>
 
-    </div>
+        <div class="photo">
+            <img src="photo.jpg" alt="My photo">
+        </div>
 
-</section>
+    </section>
+
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p class="about-text">
+            I am currently learning web development and programming.
+            I enjoy creating websites and learning how HTML, CSS and
+            JavaScript work together. I am also interested in improving
+            my coding and problem-solving skills.
+        </p>
+
+        <h3>My Skills</h3>
+
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>C</span>
+            <span>Python</span>
+            <span>GitHub</span>
+        </div>
+
+    </section>
+
+
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="project-list">
+
+            <div class="project">
+                <h3>Calculator</h3>
+
+                <p>
+                    I created a calculator that can perform basic
+                    mathematical operations.
+                </p>
+
+                <p><b>Used:</b> HTML, CSS, JavaScript</p>
+
+                <a href=" https://nilanjan03.github.io/Calculator-project/">View Project</a>
+            </div>
+
+
+            <div class="project">
+                <h3>To-Do List</h3>
+
+                <p>
+                    A simple to-do list where users can add and remove
+                    their daily tasks.
+                </p>
+
+                <p><b>Used:</b> HTML, CSS, JavaScript</p>
+
+                <a href=" https://nilanjan03.github.io/Todo-list-Project/">View Project</a>
+            </div>
+
+
+            <div class="project">
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    This portfolio website was created to display my
+                    skills, projects and contact details.
+                </p>
+
+                <p><b>Used:</b> HTML, CSS, JavaScript</p>
+
+                <a href="https://nilanjan03.github.io/Frontend/">View Project</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>Email: nilanjandas506@gmail.com</p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/Nilanjan03" target="_blank">Nilanjan03</a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/nilanjan-das-892756249" target="_blank">My LinkedIn</a>
+        </p>
+
+
+        <form id="contactForm">
+
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <textarea id="message" placeholder="Write your message" required></textarea>
+
+            <button type="submit">Send</button>
+
+        </form>
+
+        <p id="result"></p>
+
+    </section>
+
+
+    <footer>
+
+        <p>© <span id="year"></span> Nilanjan Das</p>
+
+        <a href="documentation.pdf" download class="download">
+            Download Documentation
+        </a>
+
+    </footer>
+
+
+    <script src="portfolio.js"></script>
+
+</body>
+
+</html>
