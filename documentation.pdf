@@ -1,0 +1,129 @@
+PERSONAL PORTFOLIO WEBSITE
+DOCUMENTATION
+
+1. STUDENT DETAILS
+
+Name: Nilanjan Das
+Roll Number: [25010101331]
+Batch: [Core Batch 04]
+Course: B.Tech Computer Science and Engineering
+University: UPES
+Date: 10 September 2026
+
+
+2. PROJECT TITLE
+
+Personal Portfolio Website
+
+
+3. OBJECTIVE
+
+The objective of this project is to create a responsive personal
+portfolio website using HTML, CSS and JavaScript.
+
+The website showcases my personal information, technical skills,
+projects and contact details.
+
+
+4. TEMPLATE / STARTING POINT
+
+The portfolio website was created from scratch using HTML, CSS
+and JavaScript.
+
+AI assistance was used for generating the initial structure,
+improving the design and simplifying parts of the code.
+
+
+5. AI TOOLS USED
+
+Tool Used: ChatGPT, Claude
+
+I used ChatGPT for:
+
+• Modify the initial HTML structure
+• Making the website responsive
+• Improving the portfolio design
+• Troubleshooting and modifying the code
+
+I used Claude for:
+• Make attractive design in CSS file
+• Portfolio design reference
+• Make my project somewhere errorless
+
+6. PROMPTS USED
+
+Some of the prompts used while creating the website were:
+
+1. "Help me with HTML, CSS and JS file."
+
+2. "Make it attractive set a nice background."
+
+3. "In this CSS file set the background with some tech
+    and programming theme."
+
+4. "Drowsiness project and make a place for it."
+
+
+7. METHOD / APPROACH
+
+Step 1:
+Created the basic HTML structure of the portfolio.
+
+Step 2:
+Added Home, About Me, Skills, Projects and Contact sections.
+
+Step 3:
+Created CSS styling for the website.
+
+Step 4:
+Added a dark technology-themed background and responsive design.
+
+Step 5:
+Used JavaScript for the mobile navigation menu and contact form.
+
+Step 6:
+Added my Calculator, To-Do List, Drowsiness Detection and
+Personal Portfolio projects.
+
+Step 7:
+Uploaded the project files to GitHub.
+
+Step 8:
+Hosted the portfolio website using GitHub Pages.
+
+Step 9:
+Added a Download Documentation button to the footer.
+
+
+8. TECHNOLOGIES USED
+
+• HTML
+• CSS
+• JavaScript
+• Git
+• GitHub
+• GitHub Pages
+
+
+9. PROJECTS INCLUDED
+
+1. Calculator
+2. To-Do List
+3. Drowsiness Detection System
+4. Personal Portfolio Website
+
+
+10. LINKS
+
+Live Portfolio:
+https://nilanjan03.github.io/Frontend/
+
+GitHub Repository:
+https://github.com/Nilanjan03/Frontend
+
+
+11. CONCLUSION
+
+This project helped me understand how HTML, CSS and JavaScript
+work together to create a responsive website. I also learned how
+to upload projects to GitHub and host a website using GitHub Pages.
